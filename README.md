@@ -81,8 +81,8 @@ Magisk 会在启动时通过 Magic Mount 叠加到 `/system/etc/`，不修改 sy
 ```c
 // 隐藏文件名包含这些关键字的文件
 static const char* HIDDEN_FILES[] = {
-    "ldkit",
-    "evil",
+    "hack",
+    "fuck",
     NULL
 };
 
